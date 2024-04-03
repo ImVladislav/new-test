@@ -34,9 +34,11 @@ li {
 img {
   display: block;
   max-width: 100%;
-    height: 418px;
+    /* height: 418px; */
       object-fit: cover;
+
 }
+
 
 .hidden {
   opacity: 0;
