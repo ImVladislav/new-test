@@ -11,7 +11,16 @@ const Card = ({ item }) => {
       {imageData.map((imageItem) => (
         <div className={s.cardThumb} key={imageItem.id}>
           <div className={s.imgWrap}>
-            <img src={imageItem.image} alt={imageItem.title} />
+            <img
+              className={s.card__image}
+              src={imageItem.image}
+              alt={imageItem.title}
+            />
+            <div className={s.Card__bottomContentContainer}>
+              <h2 className={s.Card__imageItemTitleBottom}>
+                {imageItem.title}
+              </h2>
+            </div>
           </div>
           <div className={s.contentWrap}>
             <div style={{ position: "relative" }}>
@@ -39,11 +48,7 @@ const Card = ({ item }) => {
                 {imageItem.location}
               </button>
             </div>
-            <div className={s.Card__bottomContentContainer}>
-              <h2 className={s.Card__imageItemTitleBottom}>
-                {imageItem.title}
-              </h2>
-            </div>
+
             <div className={s.Card__itemListThumb}>
               <ul className={s.Card__itemList}>
                 <li className={s.Card__itemTag}>

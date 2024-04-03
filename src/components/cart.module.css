@@ -13,16 +13,31 @@
 }
 
 .imgWrap {
+    overflow: hidden;
+
+  
+    /* & img {
+      -moz-transition: all 250ms ease-out;
+      -o-transition: all 250ms ease-out;
+      -webkit-transition: all 250ms ease-out;
+    }
+  
+    & img:hover {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+    } */
+  
+    
   width: 353px;
   height: 418px;
   margin-bottom: 20px;
   /* display: -webkit-box; */
   /* background-image: url("../images/mobile/Rectangle 48649.jpg"); */
 }
-.img {
-  width: 100%;
-  object-fit: cover;
-  overflow: hidden;
+.card__image {
+  height: 418px;
+    object-fit: cover;
 }
 .contentWrap {
   position: absolute;
@@ -70,12 +85,15 @@ font-family: "Neue Montreal", sans-serif;
 
 .Card__bottomContentContainer{
   position: absolute;
-    bottom: 15px;
+    bottom: 30px;
+    left: 15px;
   }
 
 .Card__itemListThumb{
   position: absolute;
-  bottom: 15px;
+  bottom: 30px;
+  left: 15px;
+
 }
 
 .Card__itemList{

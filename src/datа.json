@@ -1,102 +1,57 @@
-
 [
   {
     "id": 1,
     "title": "Azure Heights Luxury Residences",
-    "image": "./images/desktop/Rectangle 48555.png",
+    "image": "../images/Rectangle 48623.png",
     "location": "Dubai Marina",
     "price": "from $290k",
-    "installmentPlan": "for 10 years",
+    "installmentPlan": "from $290k",
     "initialPayment": "$30,000",
     "upgradedFeatures": ["roller", "chair"],
     "completionDate": "09/2025"
   },
   {
     "id": 2,
-    "title": "Oceanview Estates",
-    "image": "./images/desktop/Rectangle 48623.jpg",
-    "location": "Miami Beach",
-    "price": "from $350k",
-    "installmentPlan": "for 18 years",
-    "initialPayment": "$35,000",
+    "title": "Azure Heights Luxury Residences",
+    "image": "./images/Rectangle 48624.png",
+    "location": "Dubai Marina",
+    "price": "from $290k",
+    "installmentPlan": "from $290k",
+    "initialPayment": "$30,000",
     "upgradedFeatures": ["roller", "chair"],
-    "completionDate": "10/2024"
+    "completionDate": "09/2025"
   },
   {
     "id": 3,
-    "title": "Mountain Valley Retreat",
-    "image": "./images/desktop/Rectangle 48624.jpg",
-    "location": "Aspen",
-    "price": "from $500k",
-    "installmentPlan": "for 12 years",
-    "initialPayment": "$50,000",
+    "title": "Azure Heights Luxury Residences",
+    "image": "./images/Rectangle 48625.png",
+    "location": "Dubai Marina",
+    "price": "from $290k",
+    "installmentPlan": "from $290k",
+    "initialPayment": "$30,000",
     "upgradedFeatures": ["roller", "chair"],
-    "completionDate": "11/2023"
+    "completionDate": "09/2025"
   },
   {
     "id": 4,
-    "title": "Urban Loft Living",
-    "image": "./images/desktop/Rectangle 48625.jpg",
-    "location": "New York City",
-    "price": "from $600k",
-    "installmentPlan": "ffor 14 years",
-    "initialPayment": "$60,000",
+    "title": "Azure Heights Luxury Residences",
+    "image": "./images/Rectangle 48626.png",
+    "location": "Dubai Marina",
+    "price": "from $290k",
+    "installmentPlan": "from $290k",
+    "initialPayment": "$30,000",
     "upgradedFeatures": ["roller", "chair"],
-    "completionDate": "12/2022"
+    "completionDate": "09/2025"
   },
   {
     "id": 5,
-    "title": "Lakefront Retreat",
-    "image": "./images/desktop/Rectangle 48626.jpg",
-    "location": "Lake Tahoe",
-    "price": "from $750k",
-    "installmentPlan": "for 13 years",
-    "initialPayment": "$75,000",
+    "title": "Azure Heights Luxury Residences",
+    "image": "./images/Rectangle 48627.png",
+    "location": "Dubai Marina",
+    "price": "from $290k",
+    "installmentPlan": "from $290k",
+    "initialPayment": "$30,000",
     "upgradedFeatures": ["roller", "chair"],
-    "completionDate": "01/2023"
-  },
-  {
-    "id": 6,
-    "title": "Riverside Condos",
-    "image": "./images/desktop/Rectangle 48627.png",
-    "location": "Chicago",
-    "price": "from $400k",
-    "installmentPlan": "for 13 years",
-    "initialPayment": "$40,000",
-    "upgradedFeatures": ["roller", "chair"],
-    "completionDate": "02/2024"
-  },
-  {
-    "id": 7,
-    "title": "Downtown Penthouse",
-    "image": "./images/desktop/Rectangle 48555.png",
-    "location": "Los Angeles",
-    "price": "from $900k",
-    "installmentPlan": "for 8 years",
-    "initialPayment": "$90,000",
-    "upgradedFeatures": ["roller", "chair"],
-    "completionDate": "03/2025"
-  },
-  {
-    "id": 8,
-    "title": "Beachfront Paradise",
-    "image": "./images/desktop/Rectangle 48555.png",
-    "location": "Malibu",
-    "price": "from $1M",
-    "installmentPlan": "for 9 years",
-    "initialPayment": "$100,000",
-    "upgradedFeatures": ["roller", "chair"],
-    "completionDate": "04/2023"
-  },
-  {
-    "id": 9,
-    "title": "Country Club Estates",
-    "image": "./images/desktop/Rectangle 48555.png",
-    "location": "Palm Springs",
-    "price": "from $800k",
-    "installmentPlan": "for 12 years",
-    "initialPayment": "$80,000",
-    "upgradedFeatures": ["roller", "chair"],
-    "completionDate": "05/2024"
+    "completionDate": "09/2025"
   }
 ]
