@@ -14,16 +14,19 @@ const Card = ({ item }) => {
             <img src={imageItem.image} alt={imageItem.title} />
           </div>
           <div className={s.contentWrap}>
-            <h2 className={s.Card__imageItemTitle}>{imageItem.title}</h2>
-            <button className={s.Card__BtnToMap}>
-              <svg
-                width={30}
-                height={30}
-                style={{ fill: "transparent", stroke: "#232323" }}
-              >
-                <use href={`${sprite}#icon-arrow`}></use>
-              </svg>
-            </button>
+            <div className={s.Card__topContentconatiner}>
+              <h2 className={s.Card__imageItemTitle}>{imageItem.title}</h2>
+
+              <button className={s.Card__BtnArrow}>
+                <svg
+                  width={22}
+                  height={29}
+                  style={{ fill: "transparent", stroke: "#232323" }}
+                >
+                  <use href={`${sprite}#icon-arrow`}></use>
+                </svg>
+              </button>
+            </div>
             <button className={s.Card__locationBtn}>
               <svg
                 width={30}
@@ -34,40 +37,44 @@ const Card = ({ item }) => {
               </svg>
               {imageItem.location}
             </button>
-            <ul className={s.Card__itemList}>
-              <li className={s.Card__itemTag}>
-                <p className={s.Card__itemTagTitle}>Price </p>
-                <span className={s.Card__itemTagValue}>{imageItem.price}</span>
-              </li>
-              <li className={s.Card__itemTag}>
-                <p className={s.Card__itemTagTitle}>Installment Plan </p>
-                <span className={s.Card__itemTagValue}>
-                  {imageItem.installmentPlan}
-                </span>
-              </li>
-              <li className={s.Card__itemTag}>
-                <p className={s.Card__itemTagTitle}>Initial Payment </p>
-                <span className={s.Card__itemTagValue}>
-                  {imageItem.initialPayment}
-                </span>
-              </li>
-              <li className={s.Card__itemTag}>
-                <p className={s.Card__itemTagTitle}>Upgraded Features</p>
-                <span className={s.Card__itemTagValue}>
-                  {imageItem.upgradedFeatures.map((feature, index) => (
-                    <svg key={index} width={30} height={30}>
-                      <use href={`${sprite}#icon-${feature}`}></use>
-                    </svg>
-                  ))}
-                </span>
-              </li>
-              <li>
-                <p className={s.Card__itemTagTitle}>Completion Date </p>
-                <span className={s.Card__itemTagValue}>
-                  {imageItem.completionDate}
-                </span>
-              </li>
-            </ul>
+            <div>
+              <ul className={s.Card__itemList}>
+                <li className={s.Card__itemTag}>
+                  <p className={s.Card__itemTagTitle}>Price </p>
+                  <span className={s.Card__itemTagValue}>
+                    {imageItem.price}
+                  </span>
+                </li>
+                <li className={s.Card__itemTag}>
+                  <p className={s.Card__itemTagTitle}>Installment Plan </p>
+                  <span className={s.Card__itemTagValue}>
+                    {imageItem.installmentPlan}
+                  </span>
+                </li>
+                <li className={s.Card__itemTag}>
+                  <p className={s.Card__itemTagTitle}>Initial Payment </p>
+                  <span className={s.Card__itemTagValue}>
+                    {imageItem.initialPayment}
+                  </span>
+                </li>
+                <li className={s.Card__itemTag}>
+                  <p className={s.Card__itemTagTitle}>Upgraded Features</p>
+                  <span className={s.Card__itemTagValue}>
+                    {imageItem.upgradedFeatures.map((feature, index) => (
+                      <svg key={index} width={30} height={30}>
+                        <use href={`${sprite}#icon-${feature}`}></use>
+                      </svg>
+                    ))}
+                  </span>
+                </li>
+                <li className={s.Card__itemTag}>
+                  <p className={s.Card__itemTagTitle}>Completion Date </p>
+                  <span className={s.Card__itemTagValue}>
+                    {imageItem.completionDate}
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       ))}
